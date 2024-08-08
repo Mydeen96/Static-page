@@ -1,3 +1,7 @@
+import React from "react"
+import ReactDOM from "react-dom/client" 
+
+
 function Header() {
     return (
         <header className = "header">
@@ -46,5 +50,5 @@ function Page() {
 }
 
 ReactDOM.render(<Page />, document.getElementById("root"))
-// ReactDOM.render(<Footer />, document.getElementByID("body"))
+
 
